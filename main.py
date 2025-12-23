@@ -1,13 +1,8 @@
 import os
 import time
-import threading
-import queue
-import telebot
-from telebot import types
-
-# ====== ENV ======
-BOT_TOKEN = os.getenv(8142747304:AAHXFIgCyyBc5mai3caH7j5HTfUgKkRXRCI)
-OWNER_ID = os.getenv(1087753450)
+import 
+BOT_TOKEN = 8142747304:AAHXFIgCyyBc5mai3caH7j5HTfUgKkRXRCI
+OWNER_ID = 1087753450
 
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN is missing")
