@@ -9,7 +9,7 @@ from time import sleep
 from threading import Thread
 from random import choice,choices
 from telebot import types
-tok = "8450164051:AAHm4bRABmQaQC5_7jJf1VDQ6Kj3ZN0_Ceo"
+tok = os.getenv("BOT_TOKEN")
 usid = "1087753450"
 bot = telebot.TeleBot(tok)
 swapbio = ''
